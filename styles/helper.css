@@ -1,0 +1,40 @@
+/*helper*/
+.space60{
+    height:60px;
+    width:100%;
+}
+
+.space10{
+    height:10px;
+    width:100%;
+}
+
+.anchor-tag{
+    text-decoration: none;
+}
+.anchor-tag a:focus{
+    outline: none;
+}
+
+.anchor-tag h1::after{
+    content:" \f0c1";
+    font-family: "Font Awesome 5 free";
+    weight:900;
+}
+
+
+
+/*contact page*/
+.page-container{
+
+
+}
+
+.page-container > .contact-grid-wrapper > .company-metadata-sidebar-wrapper > .logo img{
+    width:200px;
+    height:200px;
+}
+.page-container > .contact-grid-wrapper{
+
+
+}
